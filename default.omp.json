@@ -75,15 +75,16 @@
       "newline": true,
       "segments": [
         {
+          "type": "path",
+          "style": "plain",
+          "powerline_symbol": "\ue0b0",
+          "template": " \uf07c {{ .Path }} ",
           "options": {
-            "folder_icon": "\uf07b ",
-            "home_icon": "\ueb06 ",
             "style": "folder",
             "max_depth": 1
           },
-          "style": "plain",
-          "template": " {{ .Path }} ",
-          "type": "path"
+          "foreground": "#ffffff",
+          "background": "background"
         }
       ],
       "type": "prompt"
