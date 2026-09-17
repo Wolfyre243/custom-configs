@@ -97,7 +97,7 @@
           "type": "session",
           "style": "plain",
           "powerline_symbol": "\ue0b0",
-          "template": "\uf007 {{ .UserName }}@{{ .HostName }} ",
+          "template": " \uf007 {{ .UserName }}@{{ .HostName }} ",
           "foreground": "#ffffff",
           "background": "background"
         }
